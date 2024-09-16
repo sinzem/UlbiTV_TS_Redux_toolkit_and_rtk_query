@@ -1,13 +1,17 @@
 import {combineReducers, configureStore} from "@reduxjs/toolkit";
 import userReducer from "./reducers/UserSlice";
+import { postAPI } from "../services/PostService";
 
 const rootReducer = combineReducers({
-    userReducer
+    userReducer,
+    [postAPI.reducerPath]: postAPI.reducer /* (редьюсер, созданный с помощью RTKQuery, путь формируем динамически, для работы обязательно подключить в store в миддлверы(ниже, сам миддлвер формируется автоматически)) */
 })
 
 export const setupStore = () => {
     return configureStore({
-        reducer: rootReducer
+        reducer: rootReducer,
+        middleware: (getDefaultMiddleware) => 
+            getDefaultMiddleware().concat(postAPI.middleware)
     })
 }
 
