@@ -5,3 +5,5 @@
 // npm i axios
 
 // npm start
+
+// npm i -g json-server (запускаем json-server --watch db.json --port 5000)

@@ -1,0 +1,84 @@
+{
+  "posts": [
+    {
+      "id": "1",
+      "title": "title Updated",
+      "views": 100,
+      "body": "typicode 1"
+    },
+    {
+      "id": "2",
+      "title": "title 2 upd",
+      "views": 200,
+      "body": "typicode 2"
+    },
+    {
+      "id": "3",
+      "title": "tit3",
+      "views": 100,
+      "body": "typicode 3"
+    },
+    {
+      "id": "4",
+      "title": "tle3",
+      "views": 200,
+      "body": "typicode 4"
+    },
+    {
+      "id": "5",
+      "title": "555",
+      "views": 100,
+      "body": "typicode 5"
+    },
+    {
+      "id": "6",
+      "title": "New TITLE",
+      "views": 200,
+      "body": "typicode 6"
+    },
+    {
+      "id": "7",
+      "title": "NEW TITLE2",
+      "views": 100,
+      "body": "typicode 7"
+    },
+    {
+      "id": "8",
+      "title": "Update",
+      "views": 200,
+      "body": "typicode 8"
+    },
+    {
+      "id": "9",
+      "title": "999",
+      "views": 100,
+      "body": "typicode 9"
+    },
+    {
+      "id": "10",
+      "title": "trase",
+      "views": 200,
+      "body": "typicode 10"
+    },
+    {
+      "id": "d171",
+      "title": "1111",
+      "body": "trase"
+    }
+  ],
+  "comments": [
+    {
+      "id": "1",
+      "text": "a comment about post 1",
+      "postId": "1"
+    },
+    {
+      "id": "2",
+      "text": "another comment about post 1",
+      "postId": "1"
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
